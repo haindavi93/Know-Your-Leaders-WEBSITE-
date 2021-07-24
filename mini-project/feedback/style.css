@@ -1,0 +1,408 @@
+body{
+  margin:0;
+  padding:0;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+.header{
+  background-image: url('background8.jpg');
+  height:100vh;
+  background-size:cover;
+  background-position: center;
+
+}
+ul{
+  float: right;
+  list-style-type:none;
+  margin-top:25px;
+
+}
+ul li{
+  display:inline-block;
+
+}
+ul li a{
+  text-decoration: none;
+  color:white;
+  padding:5px 20px;
+  border: 1px solid white;
+  transition:0.5s ease;
+}
+ul li a:hover{
+  background-color:white;
+  color:black;
+}
+
+.main{
+  max-width:1200px;
+  margin:auto;
+
+}
+.title{
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+
+}
+.title h1{
+  color:white;
+  font-size:50px;
+
+}
+.button{
+  position: absolute;
+  top:60%;
+  left:50%;
+  transform: translate(-50%,-50%);
+}
+.btn{
+  border:1px solid white;
+  padding:10px 30px;
+  color:white;
+  text-decoration: none;
+  transition:0.6s ease;
+}
+.btn:hover{
+  background-color:white;
+  color:black;
+}
+.sub img{
+  height:90vh;
+  width: 100%;
+  padding-top:5px;
+  color:white;
+ 
+}
+.wrapper, .wrapper1{
+  width:100%;
+  height:100vh;
+  background-image:url('login7.jpg');
+  background-size:cover;
+}
+
+
+.wrapper img, .wrapper1 img{
+position: absolute;
+left:15%;
+top:15%;
+}
+.container{
+  width:40%;
+  height:44%;
+  transform:translate(-50%,-50%);
+  position: absolute;
+  left:70%;
+  top:50%;
+  box-shadow:1px 1px 2px 2px white;
+  
+}
+.container1{
+  width:50%;
+  height:70%;
+  transform:translate(-50%,-50%);
+  position: absolute;
+  left:60%;
+  top:50%;
+  box-shadow:1px 1px 2px 2px white;
+  color:white;
+  
+}
+
+
+
+.first{
+  width:20%;
+  height:44%;
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left:24%;
+  top:50%;
+}
+
+#email{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left:50%;
+  top:25%;
+  width:83%;
+  height:17%;
+  padding-left: 7px;
+  font-size:17px;
+  color:black;
+  border:2px solid white;
+  background:transparent;
+
+}
+#pwd{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left:50%;
+  top:50%;
+  width:83%;
+  height:17%;
+  padding-left: 7px;
+  font-size:17px;
+  color:black;
+  border: 2px solid white;
+  background:transparent;
+}
+#email1{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left:50%;
+  top:15%;
+  width:75%;
+  height:10%;
+  padding-left: 7px;
+  font-size:17px;
+  color:black;
+  border: 2px solid white;
+  background:transparent;
+}
+#pwd1{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left:50%;
+  top:30%;
+  width:75%;
+  height:10%;
+  padding-left: 7px;
+  font-size:17px;
+  color:black;
+  border: 2px solid white;
+  background:transparent;
+}
+#mbl1{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left:50%;
+  top:45%;
+  width:75%;
+  height:10%;
+  padding-left: 7px;
+  font-size:17px;
+  color:black;
+  border: 2px solid white;
+  background:transparent;
+}
+#cpwd1{
+  transform: translate(-50%,-50%);
+  position: absolute;
+  left:50%;
+  top:60%;
+  width:75%;
+  height:10%;
+  padding-left: 7px;
+  font-size:17px;
+  color:black;
+  border:2px solid white;
+  background:transparent;
+}
+#email:hover, #email1:hover, #pwd:hover, #mbl1:hover, #pwd1:hover , #cpwd1:hover{
+  box-shadow: 0 0 10px 4px #34495e;
+}
+
+
+.wrapper button{
+border: 2px solid white;
+background: transparent;
+color: white;
+cursor: pointer;
+transition: 0.5s;
+font-size:20px;
+left:35%;
+top:75%;
+width:20%;
+height:17%;
+padding-left: 7px;
+transform: translate(-50%,-50%);
+position: absolute;
+}
+
+#sbtn{
+	left:80%;
+}
+
+.wrapper1 button{
+transform: translate(-50%,-50%);
+position: absolute;
+left:50%;
+top:75%;
+width:20%;
+height:10%;
+padding-left: 5px;
+color:white;
+transition: 0.5s;
+font-size:20px;
+border: 2px solid white;
+background: transparent;
+cursor: pointer;
+}
+
+button:hover{
+background: white;
+color:black;
+  
+}
+
+
+
+ 
+.slideshow-container {
+  max-width: 100%;
+  background-image:url('galaaaaabg.jpg');
+  height:100vh;
+}
+
+.banner img{
+  height:600px;
+  width:1200px;
+  padding-left:160px;
+  padding-top:60px;
+  cursor: pointer;
+}
+
+
+.dot {
+  cursor: pointer;
+  height: 20px;
+  width: 20px;
+  margin: 0 2px;
+  background-color: white;
+  border-radius: 100%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+ 
+}
+.active, .dot:hover {
+  background-color: skyblue;
+}
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding:130px;
+  color: white;
+  font-weight: bold;
+  font-size: 36px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  height:5px;
+}
+
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+  padding:150px;
+  
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  background-size:1px;
+}
+
+.contact-section{
+background: url('contactbg5.jpg') no-repeat;
+background-size: cover;
+height:100vh;
+
+}
+
+
+
+.contact-form{
+position: absolute;
+left:30%;
+top:27%;
+margin: auto;
+padding: 10px;
+width:75vh;
+}
+
+
+
+.contact-form-text{
+display: block;
+width: 100%;
+box-sizing: border-box;
+margin: 10px;
+border: 3px solid white;
+padding: 20px 40px;
+outline: none;
+color:white;
+transition: 0.5s;
+background-color:transparent;
+font-size: 18px;
+}
+.contact-form-text:focus{
+ box-shadow: 0 0 10px 4px #34495e;
+}
+textarea.contact-form-text{
+resize: none;
+height: 120px;
+}
+.contact-form-btn{
+float: right;
+border: 2px solid white;
+background: transparent;
+color: white;
+padding: 12px 12px;
+cursor: pointer;
+transition: 0.5s;
+font-size:20px;
+width:100px;
+}
+.contact-form-btn:hover{
+background: white;
+color:black;
+}
+
+.more{
+width: 100%;
+height:100vh;
+background-color:gray;
+}
+.more .image{
+  float: right;
+  width: 40%;
+  padding-top:150px;
+  padding-right:100px;
+}
+.more .image img{
+ width: 100%;
+ height: 60vh;
+}
+.more .info{
+  float:left;
+  font-weight:bolder;
+  padding-top:130px;
+  padding-left:100px;
+  width:40vw;
+  height:50vh;
+}
+
+.more .info p{
+  font-weight:bold;
+  font-family:sans-serif;
+  font-size:24px;
+  text-transform: none;
+  color:white;
+}
+
+.more .info button{
+border: 2px solid white;
+background: transparent;
+color: white;
+padding: 12px 12px;
+cursor: pointer;
+transition: 0.5s;
+font-size:20px;
+width:100px;
+}
+.more .info button:hover{
+background: white;
+color:black;
+}
